@@ -1,0 +1,12 @@
+Game Plan
+The basics
+The game I am planning to create will be a turn-based RPG, reminiscent to JRPGs that were created in the 1980s and the 1990s. This will mean creating my own battle system, as well as designing all the metrics to be done for the player characters (PCs), and the non-player characters (NPCs).
+The game will implement a class feature, allowing for the player to make a diverse party, or a heavily focused one. Each class will have a certain set of abilities and varying statistics.
+Techniques Implemented
+This will involve various techniques, such as procedurally generated encounters for the player to fight in, as well as behaviour trees for the artificial intelligence (AI) that will control the NPCs.
+The procedural generation will allow for certain battle formations to be made of enemies for the player to fight. This could vary from having 4 units of monster A, to 2 units of monster B, a monster C, and four monster D. The idea of giving monsters challenge ratings (CR) will help with balancing the monsters used in each battle.
+Also, the AI will use behaviour trees to be able to control the monsters used in battle. This will help emulate intelligence of creatures, as well of their nature. A wild beast will not know when to heal or which target is tactically the easiest for it to take down, but it will know whether to fight or run if it is being easily beaten.
+Also, making a class-based system for the PCs will allow diversity in each party the player uses. This means that they can either focus on one party style, or try to cover a broad base of abilities. Each class will have basic abilities they learn at certain experience levels, allowing for new spells or attacks to be obtained.
+A menu based system will be required to help manage the characters and items/equipment. It will also be used in battle, for the attack selections, and for managing abilities, so a reliable GUI will be essential, as most of the game’s interaction will be handled by the GUI.
+Repository
+https://github.com/pokepaladdy/ogrestarter
